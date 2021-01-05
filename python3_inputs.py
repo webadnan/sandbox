@@ -1,4 +1,8 @@
 # It reads one token of word or number from stdin.
+# USAGES:
+#   tokens = Tokens()
+#   n = tokens.int()
+#   s = tokens.read()
 class Tokens:
     def __init__(self, splitter=' '):
         self.queue = []
